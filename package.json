@@ -89,6 +89,7 @@
     "test": "mocha --exit",
     "test:unit": "mocha --require sucrase/register --recursive src/**/__test__.ts --exit",
     "quicktest": "mocha",
+    "quicktest1": "mocha --exit",
     "build": "rollup -c && npm run tsd",
     "prepare": "npm run build",
     "dev": "rollup -cw",
