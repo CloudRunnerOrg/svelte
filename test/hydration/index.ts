@@ -28,7 +28,7 @@ describe('hydration', () => {
 					sveltePath
 				},
 				compileOptions
-			);
+			); 
 
 			const { js } = svelte.compile(fs.readFileSync(filename, 'utf-8'), options);
 
