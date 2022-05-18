@@ -45,7 +45,7 @@ describe('hydration', () => {
 		const solo = config.solo || /\.solo/.test(dir);
 
 		if (solo && process.env.CI) {
-			throw new Error('Forgot to remove `solo: true` from test');
+			throw new Error('Forgot to remove`solo: true` from test');
 		}
 
 		(config.skip ? it.skip : solo ? it.only : it)(dir, () => {
