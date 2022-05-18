@@ -5,10 +5,10 @@ preRun:
         - npm i
 preMerge:
   pattern:
-    - "test/test.ts"
+    - "*/index.ts"
 postMerge:
   pattern:
-    - "test/test.ts"
+    - "*/index.ts"
 postRun:
      command:
         - node --version
